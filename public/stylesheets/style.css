@@ -1,0 +1,19 @@
+
+
+
+.container{
+		text-align: center;
+
+	}
+
+	.bot{
+		width: 100%;
+		height: 3000px;
+		background: linear-gradient(-155deg,#bf00ff, #ffe6ff);
+		background-position: fixed !important;
+		background-repeat: no-repeat;
+	}
+	h3{
+		margin: 0 auto;
+		float: left;
+	}

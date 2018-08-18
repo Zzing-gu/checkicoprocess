@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title Linear-Gradient
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    .container
+      h3
+      .bot
+    script.
+      var deg = -155;
+      document.querySelector(".bot").addEventListener("mousemove", function(e){
+      var x = e.offsetX;
+      var y = e.offsetY;
+      console.log(x+"||"+y);
+      deg+=2;
+      document.querySelector(".bot").style.background =  "linear-gradient("+deg+"deg,#bf00ff, #ffe6ff)";;
+      });
